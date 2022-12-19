@@ -10,6 +10,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
     <meta charset="UTF-8">
     <title>StanfordHacker</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,15 +33,43 @@
 </head>
 <body>
     <div class="container mt-5">
-		<div class="rectangle1">
+		<div class="header">
+			<img src="stanfordhacker_main.jpeg" alt="Photo from inside Stanford Hacker House" style="width:100%;">
+		<div class="centered">Stanford Hacker House</div>
 		</div>
-		<div class="rectangle2">
+		
+		<div class="welcome">
+			<div class="left">
+			<h1>To be included: Welcome Video</h1>
+			</div>
+			<div class="right">
+			<p>A message to the travelers</p>
+			</div>
 		</div>
-		<div class="rectangle3">
+		<div class="reviews">
+			<div class="box1"></div>
+				<div class="A">
+				<img src="Peter.jpeg" alt="Picture of guest">
+				<p>Text of Peter's review</p>
+				</div>
+				<div class="B">
+				<img src="Carlo.jpeg" alt="Picture of guest">
+				<p>Text of Carlo's review</p></div>
+			<div class="box2"></div>
+				<div class="C">
+				<img src="Pranav.jpeg" alt="Picture of guest">
+				<p>Text of Pranav's review</p></div>
+				</div>
+				<div class="D">
+				<img src="Kim.jpeg" alt="Picture of guest">
+				<p>Text of Kim's review</p>
+				</div>
 		</div>
-		<div class="rectangle4">
+		
+		<div class="section4">
 		</div>
-		<div class="rectangle5">
+		
+		<div class="section5">
 		</div>
 	</div>
 </body>
