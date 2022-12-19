@@ -11,6 +11,7 @@
 <html>
 <head>
 <style>
+/* .header and .centered style the top-most section of the webpage */
 .header {
   position: relative;
   text-align: center;
@@ -34,7 +35,7 @@
 <body>
     <div class="container mt-5">
 		<div class="header">
-			<img src="stanfordhacker_main.jpeg" alt="Photo from inside Stanford Hacker House" style="width:100%;">
+			<img src="stanfordhacker_main.jpeg" alt="photo" style="width:100%">
 		<div class="centered">Stanford Hacker House</div>
 		</div>
 		
@@ -71,12 +72,20 @@
 				<p>List of amenities goes here</p>
 			</div>
 			<div class="right-container">
-				<div class="top-row">3 pictures</div>
-				<div class="bottom-row">3 pictures</div>
+				<div class="top-row">3 images go here</div>
+				<div class="bottom-row">3 images go here</div>
 			</div>
 		</div>
 		
-		<div class="section5">
+		<div class="reserve-payment">
+			<div class="reserve-payment-container">
+				<div class="reserve">
+				<h1>Reserve: Check In, Check Out dates</h1>
+				</div>
+				<div class="payment">
+				<h1> Web Payments SDK front-end payment portal </h1>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

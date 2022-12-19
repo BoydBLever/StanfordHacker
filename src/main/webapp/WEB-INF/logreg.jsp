@@ -19,11 +19,11 @@
 	<!-- Include a custom logo here -->
    <!-- Flex this container so login and registration appear side-by-side -->
    <div class="container mt-5"> 
-   		<h1>Register</h1>
+   		<h1>Create a new account</h1>
    		<form:form action="/register" method="POST" modelAttribute="newUser">
    		<!-- register form -->
    		<div class="form-group">
-        	<form:label path="userName">User Name:</form:label>
+        	<form:label path="userName">Full Name:</form:label>
         	<form:input path="userName" class="form-control"/>
         	<form:errors path="userName" class="text-danger"/>
     	</div>
