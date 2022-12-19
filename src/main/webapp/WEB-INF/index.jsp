@@ -40,13 +40,13 @@
 		
 		<div class="welcome">
 			<div class="left">
-			<h1>To be included: Welcome Video</h1>
+			<h1>To be included: Founder Video</h1>
 			</div>
 			<div class="right">
 			<p>A message to the travelers</p>
 			</div>
 		</div>
-		<div class="reviews">
+		<div class="guest-reviews">
 			<div class="box1"></div>
 				<div class="A">
 				<img src="Peter.jpeg" alt="Picture of guest">
@@ -66,7 +66,14 @@
 				</div>
 		</div>
 		
-		<div class="section4">
+		<div class="accommodations-amenities">
+			<div class="left-container">
+				<p>List of amenities goes here</p>
+			</div>
+			<div class="right-container">
+				<div class="top-row">3 pictures</div>
+				<div class="bottom-row">3 pictures</div>
+			</div>
 		</div>
 		
 		<div class="section5">
