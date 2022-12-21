@@ -11,9 +11,21 @@
 <html>
 <head>
 <style>
-.container mt-5 {
+.center {
+left: 50%;
+}
+.container {
 	display: flex;
-	background-color: DodgerBlue;
+	justify-content: space-evenly;
+	background-color:DodgerBlue;
+	padding: 20px;
+}
+.register {
+width: 200px;
+
+}
+.login {
+width: 200px;
 }
 </style>
     <meta charset="UTF-8">
@@ -21,10 +33,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<h1 style="color: red"><i>stanfordhacker.com</i></h1>
+	<h1 class="center" style="color: red"><i>stanfordhacker.com</i></h1>
 	<!-- Include logo here -->
    <!-- Display flex .container mt-5 so login and registration appear side-by-side -->
-   <div class="container mt-5"> 
+   <div class="container"> 
    		<div class="register">
    			<h2>Register!</h2>
    			<form:form action="/register" method="POST" modelAttribute="newUser">
