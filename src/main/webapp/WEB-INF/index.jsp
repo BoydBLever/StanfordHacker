@@ -78,6 +78,8 @@
 }
 
 .right-container {
+	margin-top: 30px;
+	margin-right: 25px;
 	display:flex;
 	flex-wrap: wrap;
 	flex: 1;
@@ -157,7 +159,7 @@
 	</div>
 		<div style="border: 5px solid #3374FF" class="welcome">
 			<div class="left">
-				<video style="border:5px solid #B8DAFF" width="448" height="336" controls>
+				<video width="448" height="336" controls>
   				<source src="/video/StanfordHacker.mp4" type="video/mp4">
 				</video>
 			</div>
@@ -168,17 +170,21 @@
 				I have a solution that works. It works for many people, month after month.
 				And they keep coming back. I’m making revenue. I have a nice website, and I’m seeking investment to take everything to the next level.
 				I’m confident that I’m the right person to do the job, I have domain expertise, and I’m also a full-stack software engineer, so I can build the backend.
-				If you are a traveler looking for inexpensive accommodations with an amazing host in a perfect location by Stanford University in downtown Palo Alto, California, I invite you to email me today and make a reservation, or to simply use the form below
-				to book your bed now, and discover what so many other guests love about the one and only Stanford Hacker House. I promise to offer the highest quality shared room in Silicon Valley at the lowest possible price. 
-				So whether you are an engineer, designer, startup founder, investor, tech enthusiast, college student, graduate student or a curious traveler,  I look forward to welcoming you to my garage. You will enjoy having me as your superhost.
+				If you are a traveler looking for inexpensive accommodations with an amazing host in a perfect location by Stanford University in Palo Alto, California, make a reservation by email (boydlever@stanfordhacker.com) or
+				book and pay for your bed with the form below, and discover what so many other guests love about the one and only Stanford Hacker House. I promise to offer the highest quality shared room in Silicon Valley at the lowest possible price. 
+				So whether you are a hacker, engineer, designer, startup founder, investor, tech enthusiast, college student, graduate student or a curious traveler,  I look forward to welcoming you to my garage. You will enjoy having me as your superhost.
 				</p>
 			</div>
 		</div>
-		<div style="border:5px solid #B8DAFF" class="guest-reviews">
+		<div style="border:5px solid #B8DAFF" class="big-container">
+		<div class="text-center">
+				<h3 class="p-3">What Guests Love About Stanford Hacker House</h3>
+			</div>
+		<div class="guest-reviews">
+			
 			<div class="box1">
 				<div class="guest-card">
 					<img src="/img/Pranav.jpeg" alt="Picture of Pranav" width="450" height="300">
-					
 				</div>
 				<div class="guest-card">
 					<img src="/img/Mitchell.jpeg" alt="Picture of Mitchell" width="450" height="270">
@@ -191,6 +197,7 @@
 				<div class="guest-card">
 					<img src="/img/Peter.jpeg" alt="Picture of Peter" width="450" height="270">
 				</div>
+			</div>
 			</div>
 		</div>
 		<div style="border: 5px solid #3374FF" class="accommodations-amenities">
@@ -238,6 +245,9 @@
 			<form oninput="price.value = quantity.valueAsNumber * 32" action="http://localhost:3000">
 				<label for="name">Full name:</label>
 				<input type="text" id="name">
+				<br>
+				<label for="dates">Dates:</label>
+				<input type="text" id="dates">
 				<br>
 				<label for="quantity">Enter the number of nights:</label>
 				<input type="number" id="quantity" name="quantity" min="31" max="100"> Price = $	
