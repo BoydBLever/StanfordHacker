@@ -69,5 +69,6 @@ There is a separate code repository and README.md file for the Square Payments A
 
 ## Screenshots
 
-![Stanford Hacker House](https://github.com/BoydBLever/StanfordHacker/issues/1#issue-1905957492)
+![Stanford Hacker House, exterior view](https://user-images.githubusercontent.com/113860788/269463588-15aad9b4-d7ab-44f9-9714-ac11a1e27029.png)
+
 
