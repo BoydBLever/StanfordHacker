@@ -12,9 +12,9 @@ Recognizing these challenges, I decided to leverage my advanced Java programming
 ### Step 1: Check Java Version
 
 Run this Terminal Command:    
-`
+```
 java -version
-`  
+``` 
 
 Expected output:  
 
@@ -28,11 +28,11 @@ If Java is not installed on your machine, then visit Java's download page and se
 
 ### Step 2: Check for Build Tool
 Maven is a software tool that helps you manage Java projects and automate application builds. Check if you already have Maven installed by running this command:
-`
+```
 mvn -v
-`
+```
 
-Expected output:
+Expected output:  
 
 `
 Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
