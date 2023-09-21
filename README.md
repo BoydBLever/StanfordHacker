@@ -73,3 +73,4 @@ There is a separate code repository and README.md file for the Square Payments A
 ![StanfordHacker project, guest reviews](https://user-images.githubusercontent.com/113860788/269463647-0182c7bc-b77d-4824-a5cc-ffd0e5c38ed2.png)
 ![StanfordHacker project, amenities & create a booking](https://user-images.githubusercontent.com/113860788/269463630-bc8fe19b-067d-4113-8c47-04089ae7c6f7.png)
 ![StanfordHacker project, Square payment form](https://user-images.githubusercontent.com/113860788/269463051-c3133166-19f6-4801-9a6e-3ee717c1ca98.png)
+
