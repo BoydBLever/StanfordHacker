@@ -15,6 +15,7 @@ Run this Terminal Command:
 `
 java -version
 `
+
 Expected output:
 
 `
@@ -22,6 +23,7 @@ java version "19.0.1" 2022-10-18
 Java(TM) SE Runtime Environment (build 19.0.1+10-21)
 Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
 `
+
 If Java is not installed on your machine, then visit Java's download page and select your operating system and proceed to download the package.
 
 ### Step 2: Check for Build Tool
@@ -29,7 +31,9 @@ Maven is a software tool that helps you manage Java projects and automate applic
 `
 mvn -v
 `
+
 Expected output:
+
 `
 Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
 Maven home: /opt/homebrew/Cellar/maven/3.9.4/libexec
