@@ -47,7 +47,8 @@ If you do not have Maven installed, visit the documentation for instructions on 
 After confirming that Maven is installed on your machine, run these terminal commands:
 
 `
-mvn clean install  
+mvn clean install
+  
 mvn spring-boot:run
 `
 
