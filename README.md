@@ -12,5 +12,7 @@ Recognizing these challenges, I decided to leverage my advanced Java programming
 ### Step 1: Check Java Version
 
 Run this Terminal Command:
-```bash
+`
 java - version
+`
+
