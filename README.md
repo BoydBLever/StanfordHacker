@@ -51,7 +51,6 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-
 The first command cleans any previous build, installs the dependencies, and compiles the project. This command compiles the source code, runs tests, packages the compiled code into a JAR file, and then installs that JAR into your local Maven repository. The second command starts the Spring Boot application. Using `mvn clean install` ensures a completely fresh build which is nice to have if you plan on making a lot of edits to the codebase.
 
 ### Step 3: Visit StanfordHacker
