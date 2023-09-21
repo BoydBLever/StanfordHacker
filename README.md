@@ -11,7 +11,7 @@ Recognizing these challenges, I decided to leverage my advanced Java programming
 ## Setup and Installation 
 ### Step 1: Check Java Version
 
-Run this Terminal Command:  
+Run this Terminal Command:    
 `
 java -version
 `  
