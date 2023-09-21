@@ -66,3 +66,8 @@ Java applications can be built using several different file structures. The one 
 ## Quickstart for using Square's Web Payments SDK
 
 There is a separate code repository and README.md file for the Square Payments API that I successfully integrated into this project. You may find it at this link: [[Square's Web Payment's SDK]](https://github.com/BoydBLever/web-payments-quickstart2).
+
+## Screenshots
+
+![Stanford Hacker House](https://github.com/BoydBLever/StanfordHacker/issues/1#issue-1905957492)
+
