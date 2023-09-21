@@ -9,3 +9,8 @@ The StanfordHacker project was born from my desire to provide a seamless experie
 Recognizing these challenges, I decided to leverage my advanced Java programming prowess. The result? A full-stack Spring Boot application offering a rich user experience. Some highlights include an interactive carousel showcasing the amenities available and a sophisticated payment gateway allowing guests to effortlessly reserve their spots.
 
 ## Setup and Installation 
+### Step 1: Check Java Version
+
+Run this Terminal Command:
+```bash
+java - version
